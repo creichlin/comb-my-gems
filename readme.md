@@ -7,11 +7,12 @@ there is a tool for windows which does it in a much better and friendlier way: h
 
 recipes for gems can be found here: https://github.com/gemforce-team/gemforce/tree/master/results
 
-they have to be updated in the combmygems.py file on line 5
+they have to be given as the only parameter, alternatively one of kg16, kg32 or kg64 can be given or the same with mg.
+see code for more infos.
 
 on line 6 the delay value can be decreased. i need a big delay because my computer is pretty slow
 
-to do the actual clicking some tool called xdotool (sudo apt-get install xdotool) is used
+to do the actual clicking, some tool called xdotool (sudo apt-get install xdotool) is used
 
 there are probably plenty of bugs, it's not properly tested.
 
